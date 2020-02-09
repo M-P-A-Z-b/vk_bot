@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+	<style>
+		.hidden {
+			visibility: hidden;
+		}
+	</style>
+	<main id="content">
+		<div class="wrapper">
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username">
+				<label for="password">Password:</label>	
+				<input type="password" id="password">
+			
+				<input type="submit" id="submit">
+				<p class="error hidden">Неверный логин или пароль</p>
+			</form>
+		</div>
+	</main>
+</body>
+<script src="./script.js"></script>
+</html>
